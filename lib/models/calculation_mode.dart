@@ -1,0 +1,4 @@
+enum CalculationMode {
+  amountToGrams,
+  gramsToAmount,
+}
