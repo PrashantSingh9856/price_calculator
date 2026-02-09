@@ -24,7 +24,7 @@ class ResultCard extends ConsumerWidget {
         : '₹${result.toStringAsFixed(2)}';
 
     return AnimatedOpacity(
-      opacity: result != null ? 1.0 : 0.0,
+      opacity: 1.0,
       duration: const Duration(milliseconds: 300),
       child: Container(
         padding: const EdgeInsets.all(28),
